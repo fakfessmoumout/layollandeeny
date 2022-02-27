@@ -1,0 +1,116 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("fond.jpg");
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: 180%;
+}
+
+header{
+  text-align: center;
+  font-size: 130%;
+}
+
+h1{
+
+  border: 5px double orangered;
+  background-color: lightgray;
+  color: lightpink;
+  text-shadow: 5px 5px 5px darkred;
+}
+
+h2{
+  text-align: left;
+  text-decoration: blink;
+  color: chocolate;
+  text-shadow: 5px 5px 5px slategray;
+}
+
+h3{
+  text-decoration: underline;
+  text-align: left;
+  color: black;
+  text-shadow: 2px 2px 5px darkblue;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+p{
+  padding-left: 34%;
+  padding-right: 3%;
+  font-size: 100%;
+  text-decoration: blink;
+  text-align: center;
+  color: skyblue;
+}
+
+p2{
+  font-size: 120%;
+  text-align: center;
+  color: darkcyan;
+  text-decoration: underline;
+}
+
+p3{
+  text-align: center;
+  color: black;
+  border: 3px solid forestgreen;
+  background-color: seagreen;
+  font-size: 150%;
+  font-family: arial;
+}
+
+a:link, a:visited {
+  background-color: lightsalmon;
+  color: black;
+  border: 5px solid saddlebrown;
+  padding: 5% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: arial
+}
+
+nav {
+  background-image: url("fondbouton.jpg");
+  float: left;
+  border: 3px solid black;
+  background-size: 350%;
+  text-decoration: none;
+  padding-right: 2.8%;
+  width: 20%;
+}
+
+
+nav ul {
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+article{
+  background-image: url("tableau.png");
+  float: left;
+  width: 447px;
+  height: 308px;
+}
+
+a:hover, a:active {
+  background-color: lightskyblue;
+  color: lightsalmon;
+  border: 5px solid rosybrown;
+
+}
+
+@media (max-width: 100px) {
+  h1, h2, body {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>

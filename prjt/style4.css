@@ -1,0 +1,49 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+	background-image: url("fond.jpg");
+}
+
+h1{
+	text-align: center;
+ 	border: 5px double orangered;
+  background-color: lightgray;
+  color: lightpink;
+  text-shadow: 5px 5px 5px darkred;
+}
+
+h2{
+  text-align: left;
+  text-decoration: underline;
+  color: chocolate;
+  text-shadow: 5px 5px 5px slategray;
+}
+
+a{
+	text-align: left;
+	color: papayawhip; 
+}
+
+b{
+text-align: left;
+color : papayawhip;
+}
+
+p{
+text-align: left;
+color : papayawhip;
+}
+
+input{
+	background-color: black;
+	color: papayawhip;
+}
+
+textarea{
+	color:  papayawhip;
+	background-color: black;
+}
